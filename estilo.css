@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    margin: 20px;
+    padding: 20px;
+}
+.us1 {
+        background-color: rgb(152, 255, 255);
+        display: block;
+        margin-left: 20px;
+        padding: 20px;
+        max-width: 500px;
+}
+
+.us2 {
+    background-color: rgb(152, 255, 255);
+    display: block;
+    margin-left: 20px;
+    padding: 20px;
+    max-width: 500px;
+}

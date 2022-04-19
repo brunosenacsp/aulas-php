@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Ex 07</title>
+</head>
+<body>
+    <h1>Form Ex 07</h1>
+    <hr>
+    
+    <form action="processo-07.php" method="post">
+        <p>
+            <label for="produto">Produto:</label>
+            <input type="text" name="produto" id="produto">
+        </p>
+        <p>
+            <label for="fabricante">Fabricante:</label>
+            <select name="fabricante">
+            <option>Selecione</option>
+            <option>Samsung</option>
+            <option>LG</option>
+            <option>Sony</option>
+            <option>Apple</option>
+            </select>
+        </p>
+        <p>
+            <label for="preco">Preço:</label>
+            <input type="number" min="100" max="1000" name="preco" id="preco" step="0.01">
+        </p>
+
+        <p>
+            <label for="descricao">Descrição:</label><br>
+            <textarea name="descricao" id="descricao" cols="30" rows="6"></textarea>
+        </p>
+        <button type="submit" name="enviar">Enviar dados</button>
+    </form>
+</body>
+</html>
