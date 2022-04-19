@@ -24,5 +24,26 @@ Usamos a linguagem markdown para estruturar rapidamente.
 2. Design
 3. Front-End
 
+`console.log("Olá!")`
+
+```javascript
+let aluno = "Bruno";
+console.log(aluno);
+```
+
+```PHP
+$aluno = "Bruno";
+echo $aluno;
+```
+
 ## Imagens
+![Logotipo PHP](php-logo.png)
+
+## Caixas de seleção
+
+### Lista de tarefas
+
+- [] Briefing
+- [X] Rascunhos
+- [] Design
 
