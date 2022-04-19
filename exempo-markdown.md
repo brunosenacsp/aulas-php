@@ -47,3 +47,16 @@ echo $aluno;
 - [X] Rascunhos
 - [ ] Design
 
+## Tabelas
+
+Cliente | Idade | Cidade
+--- | --- | ---
+João | 25 | Minas Gerais
+Bruno | 37 | São Paulo
+Zé | 48 | Rio de Janeiro
+
+## Emoji
+
+:heart:
+
+:star:
